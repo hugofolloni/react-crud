@@ -1,17 +1,17 @@
 {
   "data": [
     {
-      "ticker": "HLDR3",
-      "amount": "4",
-      "price": "0.2",
-      "date": "22/11/2021",
+      "ticker": "HGLG11",
+      "amount": 20,
+      "price": "188.33",
+      "date": "23/11/2021 - 16:38",
       "id": 1
     },
     {
-      "ticker": "HGLG11",
-      "amount": "2",
-      "price": "114.52",
-      "date": "22/11/2021 - 20:39",
+      "ticker": "ITSA3",
+      "amount": 15,
+      "price": "10.95",
+      "date": "23/11/2021 - 16:39",
       "id": 2
     }
   ]

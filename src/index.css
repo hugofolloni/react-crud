@@ -1,3 +1,145 @@
+*{ 
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
+}
+
+.header-div {
+  display: flex;  
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0277bd;
+  color: #ffffff;
+  height: 10vh;
+}
+
+.header-div a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header-div h1 {
+  margin-left: -5vw;
+  margin-right: 5vw;
+}
+
+.header-div .button {
+  background-color: #d1c4e9;
+  color: #000000;
+  text-decoration: none;
+  width: 10vw;
+  height: 6vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  transition: 0.3s ease all;
+}
+
+.header-div .button:hover {
+  background-color: #883997;
+  color: #ffffff;
+ }
+
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.list-div {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 90vh;
+  flex-wrap: wrap;
+}
+
+.single-item-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #ffffff;
+  width: 20vw;
+  height: 20vh;
+  margin: 10vh;
+  padding: 3vh;
+  border-radius: 10px;
+  border: 3px solid #a094b7;
+  transition: 0.3s ease all;
+}
+
+.single-item-div:hover{
+  box-shadow: 0px 0px 10px #000000;
+  border: 1px solid #883997;
+}
+
+.create-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+  background-color: #eaeaea;
+}
+
+.container {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  height: 70vh;
+  border-radius: 10px;
+}
+
+.container h3 {
+  margin: 0 0 5vh -40%;
+  color: #7c63aa;
+}
+
+
+.container input {
+  width: 30vw;
+  height: 5vh;
+  margin: 2vh 0 4vh 0;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 1px solid #883997;
+  outline: none;
+  transition: 0.3s ease all;
+}
+
+.container input:focus{
+  outline: 1.5px solid #7c63aa;
+}
+
+.container div h4 {
+  margin-left: 3%;
+}
+
+.container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 5vh;
+  margin-left: 30%;
+  background-color: #d1c4e9;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+ cursor: pointer;
+ transition: 0.3s ease all;
+}
+
+.container button:hover {
+ background-color: #883997;
+ color: #ffffff;
 }

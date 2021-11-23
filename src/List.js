@@ -6,7 +6,11 @@ const List = (props) => {
         <div className="list-div">
             { items.map((items) => (
                 <div className="single-item-div">
-                   <p> {items.ticker}, {items.amount}, {items.price}, {items.date} </p>
+                    <h4> { items.ticker } </h4>
+                    <h5> R${ (items.price * items.amount).toFixed(2) } </h5>
+                    <span> Amount: { items.amount } </span>
+                    <span> Average Price: { items.price } </span>
+                    <span> Last Buy: {items.date } </span>
                 </div>
             ))
         }

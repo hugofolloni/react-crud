@@ -19,9 +19,6 @@ const Homepage = () => {
 
     return ( 
         <div className="homepage-div">
-            <div className="redirect-to-create">
-                <a href="/create">Create</a>
-            </div>
             <div className="list">
                 {items && <List items={items} />}
             </div>
